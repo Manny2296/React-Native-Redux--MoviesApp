@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Riano\\Moviesandme\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Riano\\Repo\\React-Native.-MoviesandMe\\Moviesandme\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Riano\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.1.aar\\85df2fd4b75e89e499abdc2175c85137\\res\\values-v21\\values-v21.xml",

@@ -70,6 +70,7 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       fontSize: 20,
       flex: 1,
+      color: "blue",
       flexWrap: 'wrap',
       paddingRight: 5
     },

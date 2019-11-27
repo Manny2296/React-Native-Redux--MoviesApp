@@ -230,7 +230,7 @@ favorite_image: {
 })
 
 const mapStateToProps = (state) => {
-  return {favoritesFilm : state.favoritesFilm } 
+  return {favoritesFilm : state.toggleFavorite.favoritesFilm } 
 }
 
 export default connect(mapStateToProps)(FilmDetail)

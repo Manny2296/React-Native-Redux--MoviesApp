@@ -1,12 +1,12 @@
 import React from "react";
 import {  StyleSheet, Image, TouchableOpacity } from "react-native";
 import  ImagePicker  from "react-native-image-picker";
+import { connect } from 'react-redux'
+
 class Avatar extends React.Component{
     constructor(props){
         super(props)
-        this.state = {
-            avatar : require('../images/ic_tag_faces.png')
-        }
+      
         // this.setState est appelé dans un callback dans showImagePicker, pensez donc bien à binder la fonction _avatarClicked
     this._avatarclicked = this._avatarclicked.bind(this)  
     }
@@ -22,9 +22,11 @@ ImagePicker.showImagePicker({},(reponse) => {
     else{
         console.log("photo" , reponse.uri)
         let requiresource = {uri: reponse.uri}
-        this.setState({
-            avatar: requiresource
-        })
+
+        // On cree une action avec l'image prose et on 
+        //envoi au store Redux
+        const action = {type:"SET_AVATAR", value: requiresource}
+     this.props.dispatch(action)
     }
 })
     }
@@ -34,7 +36,7 @@ ImagePicker.showImagePicker({},(reponse) => {
         style={styles.touchableOpacity}
         onPress={this._avatarclicked}
          >
-             <Image style={styles.avatar} source={this.state.avatar}></Image>
+             <Image style={styles.avatar} source={this.props.avatar}></Image>
 
          </TouchableOpacity>
         )
@@ -58,6 +60,12 @@ const styles = StyleSheet.create(
         }
 
     }
-)
 
-export default Avatar 
+)
+const maptostate = state => {
+    return {
+        avatar: state.setAvatar.avatar
+    }
+}
+
+export default connect(maptostate)(Avatar) 
