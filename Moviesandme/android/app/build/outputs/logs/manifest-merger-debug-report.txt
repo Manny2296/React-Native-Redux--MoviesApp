@@ -1,0 +1,495 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-screens] C:\Users\Riano\Moviesandme\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\Riano\Moviesandme\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] C:\Users\Riano\Moviesandme\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\6290e4419910e0b467cd86cf0d30813c\AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-permissions] C:\Users\Riano\Moviesandme\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\d42a0ae263febe1e75b143dff4f27899\AndroidManifest.xml:17:1-22:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-app-loader-provider] C:\Users\Riano\Moviesandme\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\Riano\Moviesandme\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] C:\Users\Riano\Moviesandme\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] C:\Users\Riano\Moviesandme\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] C:\Users\Riano\Moviesandme\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] C:\Users\Riano\Moviesandme\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] C:\Users\Riano\Moviesandme\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\Riano\Moviesandme\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\e82f40c8e1cdbd88774057dcc03ca9c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\91c211e5a7409382fea65955c0988d8f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\8d1ca55f53b687c4a2214368ffcf838d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\94a401ee9a18f79063226f5cc9787a58\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ef6b5c44e0dfa281a912d3cecb14b451\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\575bca44144438b465967c7ef1fec32b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\87a54a6eff12f364fd7380732fd1609d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\e093b0dfecac93b6ebcb3ee7296ff31f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\57304ef5ca1acf87439640cca995a7a6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\6bcdd767aafc7035416d0183e6372888\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ea32052bd7fc72cb2a481ba499a24ad6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\f7ef0ed5b43861f0133f11508f50860f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\404ba42019334d6638c82b6a92ed2202\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ca704c0805ff7cf45aaa16bdaaf5832d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\a761494e25b61086c790481611a0e73c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\c71446d5e6be2dc4113822658c87aaa9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\016f0be055681384a1a04c96fba3086d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\ae352015c8de38713881f19ffaf219b4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\1cf076f044a3b6b3d2573152e90e300a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0e1aee0c4de125d3d42c471a4bf8dd24\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ab46f4749c4b8e43702ef083e228850c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\f3cdb4a39a03c88c2e4e232470981abf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6ddbd4083c399529855bb64e646f98b8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\da8657d696f243078be01145643e9cd1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8e5bb1067d578b91236c6728d1af1a86\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f8a7a770fca1093c93f73d5e8bfcb659\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c607d6d589baf9b13b9a44afd4bd37ed\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\15a12ff61a81e319a2dbef56e3147c45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\a47ccae3521493d35935b36e54b9b2e8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\99bff40768f576a0b41cf7cf8c9826c8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\abba6191de78aa0fbc21b66dee55a0f2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-drawee-1.10.0.aar\d15c4bb158ff7089e287c307edacbf4b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\931ed569454d258eaf857a4b5103e643\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\7694accab07937ab936781af8a67ae44\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\4b255e8d60d8f18916d631b0f6ad3072\AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\dea7ac5270797eae8361529f0712a9b1\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+	package
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:2:5-30
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:21:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:22:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:23:5-80
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:26:22-70
+application
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:29:5-47:19
+MERGED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\6290e4419910e0b467cd86cf0d30813c\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\6290e4419910e0b467cd86cf0d30813c\AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\91c211e5a7409382fea65955c0988d8f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\91c211e5a7409382fea65955c0988d8f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\8d1ca55f53b687c4a2214368ffcf838d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\8d1ca55f53b687c4a2214368ffcf838d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ef6b5c44e0dfa281a912d3cecb14b451\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ef6b5c44e0dfa281a912d3cecb14b451\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\a47ccae3521493d35935b36e54b9b2e8\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\a47ccae3521493d35935b36e54b9b2e8\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\4b255e8d60d8f18916d631b0f6ad3072\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\4b255e8d60d8f18916d631b0f6ad3072\AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:31:7-39
+	android:roundIcon
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:33:7-52
+	android:icon
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:32:7-41
+	android:allowBackup
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:34:7-34
+	android:theme
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:35:7-38
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:30:7-38
+activity#com.moviesandme.MainActivity
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:36:7-45:18
+	android:label
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:38:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:40:9-51
+	android:configChanges
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:39:9-79
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:37:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:41:9-44:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:42:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:43:13-73
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:43:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:46:7-84
+	android:name
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml:46:17-81
+uses-sdk
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] C:\Users\Riano\Moviesandme\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\Riano\Moviesandme\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Riano\Moviesandme\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Riano\Moviesandme\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Riano\Moviesandme\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Riano\Moviesandme\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\6290e4419910e0b467cd86cf0d30813c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\6290e4419910e0b467cd86cf0d30813c\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\Riano\Moviesandme\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\Riano\Moviesandme\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\d42a0ae263febe1e75b143dff4f27899\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\d42a0ae263febe1e75b143dff4f27899\AndroidManifest.xml:20:5-44
+MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\Riano\Moviesandme\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\Riano\Moviesandme\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\Riano\Moviesandme\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\Riano\Moviesandme\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] C:\Users\Riano\Moviesandme\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\Riano\Moviesandme\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\Riano\Moviesandme\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\Riano\Moviesandme\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\Riano\Moviesandme\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\Riano\Moviesandme\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\Riano\Moviesandme\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\Riano\Moviesandme\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\Riano\Moviesandme\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\Riano\Moviesandme\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\Riano\Moviesandme\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\Riano\Moviesandme\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\Riano\Moviesandme\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\e82f40c8e1cdbd88774057dcc03ca9c4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\e82f40c8e1cdbd88774057dcc03ca9c4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\91c211e5a7409382fea65955c0988d8f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\91c211e5a7409382fea65955c0988d8f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\8d1ca55f53b687c4a2214368ffcf838d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\8d1ca55f53b687c4a2214368ffcf838d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\94a401ee9a18f79063226f5cc9787a58\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\94a401ee9a18f79063226f5cc9787a58\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ef6b5c44e0dfa281a912d3cecb14b451\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ef6b5c44e0dfa281a912d3cecb14b451\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\575bca44144438b465967c7ef1fec32b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\575bca44144438b465967c7ef1fec32b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\87a54a6eff12f364fd7380732fd1609d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\87a54a6eff12f364fd7380732fd1609d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\e093b0dfecac93b6ebcb3ee7296ff31f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\e093b0dfecac93b6ebcb3ee7296ff31f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\57304ef5ca1acf87439640cca995a7a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\57304ef5ca1acf87439640cca995a7a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\6bcdd767aafc7035416d0183e6372888\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\6bcdd767aafc7035416d0183e6372888\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ea32052bd7fc72cb2a481ba499a24ad6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\ea32052bd7fc72cb2a481ba499a24ad6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\f7ef0ed5b43861f0133f11508f50860f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\f7ef0ed5b43861f0133f11508f50860f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\404ba42019334d6638c82b6a92ed2202\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\404ba42019334d6638c82b6a92ed2202\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ca704c0805ff7cf45aaa16bdaaf5832d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\ca704c0805ff7cf45aaa16bdaaf5832d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\a761494e25b61086c790481611a0e73c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\a761494e25b61086c790481611a0e73c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\c71446d5e6be2dc4113822658c87aaa9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\c71446d5e6be2dc4113822658c87aaa9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\016f0be055681384a1a04c96fba3086d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\016f0be055681384a1a04c96fba3086d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\ae352015c8de38713881f19ffaf219b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\ae352015c8de38713881f19ffaf219b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\1cf076f044a3b6b3d2573152e90e300a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\1cf076f044a3b6b3d2573152e90e300a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0e1aee0c4de125d3d42c471a4bf8dd24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0e1aee0c4de125d3d42c471a4bf8dd24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ab46f4749c4b8e43702ef083e228850c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ab46f4749c4b8e43702ef083e228850c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\f3cdb4a39a03c88c2e4e232470981abf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\f3cdb4a39a03c88c2e4e232470981abf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6ddbd4083c399529855bb64e646f98b8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6ddbd4083c399529855bb64e646f98b8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\da8657d696f243078be01145643e9cd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\da8657d696f243078be01145643e9cd1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8e5bb1067d578b91236c6728d1af1a86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8e5bb1067d578b91236c6728d1af1a86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f8a7a770fca1093c93f73d5e8bfcb659\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f8a7a770fca1093c93f73d5e8bfcb659\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c607d6d589baf9b13b9a44afd4bd37ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c607d6d589baf9b13b9a44afd4bd37ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\15a12ff61a81e319a2dbef56e3147c45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\15a12ff61a81e319a2dbef56e3147c45\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\a47ccae3521493d35935b36e54b9b2e8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\a47ccae3521493d35935b36e54b9b2e8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\99bff40768f576a0b41cf7cf8c9826c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\99bff40768f576a0b41cf7cf8c9826c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\abba6191de78aa0fbc21b66dee55a0f2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\abba6191de78aa0fbc21b66dee55a0f2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-drawee-1.10.0.aar\d15c4bb158ff7089e287c307edacbf4b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-drawee-1.10.0.aar\d15c4bb158ff7089e287c307edacbf4b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\931ed569454d258eaf857a4b5103e643\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\931ed569454d258eaf857a4b5103e643\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\7694accab07937ab936781af8a67ae44\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\7694accab07937ab936781af8a67ae44\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\4b255e8d60d8f18916d631b0f6ad3072\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\4b255e8d60d8f18916d631b0f6ad3072\AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\dea7ac5270797eae8361529f0712a9b1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\dea7ac5270797eae8361529f0712a9b1\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Riano\Moviesandme\android\app\src\main\AndroidManifest.xml
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] C:\Users\Riano\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Riano\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] C:\Users\Riano\Moviesandme\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\6305096427c24916ccab158aa177474c\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:13:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:26:13-120
