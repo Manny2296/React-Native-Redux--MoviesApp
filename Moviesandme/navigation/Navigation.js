@@ -9,18 +9,30 @@ import Search from '../components/Search'
 import  Favorites  from "../components/Favorites";
 import FilmDetail from '../components/FilmDetail'
 import Test from "../components/Test";
+import News from "../components/News";
 const SearchStackNavigator = createStackNavigator({
   Search: { // Ici j'ai appelé la vue "Search" mais on peut mettre ce que l'on veut. C'est le nom qu'on utilisera pour appeler cette vue
     screen: Search,
     navigationOptions: {
-      title: 'Moteur de recherche des Films '
+      title: 'Moteur de recherche des Films'
     }
   },
   FilmDetail: { // Encore une fois j'ai mis le même nom que celui du component mais libre à vous de choisir un nom différent
     screen: FilmDetail
   }
 })
+const NewStackNavigator = createStackNavigator({
+  News: {
+    screen:News,
+    navigationOptions: {
+      title: 'Les plus qualifiés'
 
+    }
+  },
+  FilmDetail: {
+    screen: FilmDetail
+  }
+})
 const FavoriteStackNavigator = createStackNavigator({
   Favorites:{
     screen:Favorites,
@@ -54,6 +66,17 @@ const MoviesTabNavigator = createBottomTabNavigator({
         
       }
     } 
+  },
+  News: {
+    screen:NewStackNavigator,
+    navigationOptions : {
+      tabBarIcon:()=>{
+        return(
+          <Image source={require("../images/ic_news.png")} style={styles.icon}/>
+          ) 
+        
+      }
+    }
   }
 },
   {

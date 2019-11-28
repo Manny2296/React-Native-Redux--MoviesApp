@@ -19,7 +19,7 @@ class FilmItem extends React.Component {
    // console.log(film.original_title + "\n");
    //console.log(this.props);
     return (
-      <FadeIn>
+      /*<FadeIn>*/
         <TouchableOpacity style={styles.main_container} onPress={()=> displayDetailForFilm(film.id)} >
         <Image
           style={styles.image}
@@ -41,7 +41,7 @@ class FilmItem extends React.Component {
        
         </View>
       </TouchableOpacity>
-      </FadeIn>
+     /* </FadeIn>*/
     )
   }
 }
