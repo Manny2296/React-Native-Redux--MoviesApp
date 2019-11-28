@@ -10,6 +10,8 @@ import  Favorites  from "../components/Favorites";
 import FilmDetail from '../components/FilmDetail'
 import Test from "../components/Test";
 import News from "../components/News";
+import FilmsVues from "../components/FilmsVues";
+
 const SearchStackNavigator = createStackNavigator({
   Search: { // Ici j'ai appelé la vue "Search" mais on peut mettre ce que l'on veut. C'est le nom qu'on utilisera pour appeler cette vue
     screen: Search,
@@ -42,6 +44,14 @@ const FavoriteStackNavigator = createStackNavigator({
   },
   FilmDetail: {
     screen: FilmDetail
+  }
+})
+const VuesStackNavigator = createStackNavigator({
+  FilmsVues:{
+    screen:FilmsVues,
+       navigationOptions:{
+         title:"Films Vues"
+       }
   }
 })
 const MoviesTabNavigator = createBottomTabNavigator({
@@ -77,8 +87,20 @@ const MoviesTabNavigator = createBottomTabNavigator({
         
       }
     }
+  },
+  FilmsVues:{
+    screen: VuesStackNavigator,
+    navigationOptions:{
+      tabBarIcon:()=>{
+        return(
+          <Image source={require("../images/ic_vues.png")} style={styles.icon}/>
+          ) 
+        
+      }
+    }
   }
 },
+
   {
   tabBarOptions : {
     activeBackgroundColor: '#DDDDDD', // Couleur d'arrière-plan de l'onglet sélectionné
