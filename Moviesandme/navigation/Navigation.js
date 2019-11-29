@@ -52,6 +52,9 @@ const VuesStackNavigator = createStackNavigator({
        navigationOptions:{
          title:"Films Vues"
        }
+  },
+  FilmDetail: {
+    screen: FilmDetail
   }
 })
 const MoviesTabNavigator = createBottomTabNavigator({

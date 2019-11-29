@@ -1,7 +1,7 @@
 // Components/FilmDetail.js
 
 import React from 'react'
-import { Platform,StyleSheet, View, Text,ActivityIndicator,Image,Button, TouchableOpacity, Share } from 'react-native'
+import { Platform,StyleSheet,Alert, View, Text,ActivityIndicator,Image,Button, TouchableOpacity, Share } from 'react-native'
 import { getFilmDetailFromApi } from '../API/TMDBapi'
 import { ScrollView } from 'react-native-gesture-handler'
 import { getImageFromApi } from '../API/TMDBapi'
@@ -24,6 +24,7 @@ class FilmDetail extends React.Component {
               }
     }
   }
+
     constructor(props) {
         super(props)
         this.state = {
@@ -31,6 +32,7 @@ class FilmDetail extends React.Component {
           isLoading: true // A l'ouverture de la vue, on affiche le chargement, le temps de récupérer le détail du film
         }
         this._shareFilm = this._shareFilm.bind(this)
+
       }
     _shareFilm(){
       const {film} = this.state
@@ -83,6 +85,15 @@ class FilmDetail extends React.Component {
          }, () => {this._updateNavigationParams()})
          return
        }
+       const FilmVuIndex = this.props.FilmsVus.findIndex(item=> item.id === this.props.navigation.state.params.idFilm)
+       if(FilmVuIndex !== -1){ //Film déjá dans nos favorites, on a deja son detail pas besoin d'apeller l'API ici
+       this.setState({
+         film: this.props.FilmsVus[FilmVuIndex],
+         isLoading : false
+       }, () => {this._updateNavigationParams()})
+       return
+     }
+      // const FilmVuIndex = this.props.
        //le film n'est pas dans Favoris, on apelle l'api pour recuperer son detail
       console.log("Le film no esta en la lista de favoritos")
        this.setState({isLoading : true})
@@ -98,6 +109,7 @@ class FilmDetail extends React.Component {
       componentDidUpdate(){
         console.log("ComponentDidUpdate :")
         console.log(this.props.favoritesFilm);
+        console.log(this.props.FilmsVus);
       }
       _displayFavoriteImage(){
         var sourceImage = require("../images/ic_favorite_border.png");
@@ -112,6 +124,20 @@ class FilmDetail extends React.Component {
           <Image style={styles.favorite_image} source={sourceImage}></Image>
           </Enlarge>
         )
+      }
+      _displayButtonFilmVu(){
+        var title_text = " Marquer comme Lu"
+        if(this.props.FilmsVus.findIndex(item => item.id === this.state.film.id) !== -1)
+        { 
+          title_text = "Non Lu"
+        }
+        return(
+          <Button
+          title={ title_text}
+          onPress={() => this._toogleVu()}
+        />
+          )
+
       }
       _displayFilm(){
           if(this.state.film != undefined){
@@ -140,6 +166,7 @@ class FilmDetail extends React.Component {
                       <Text style={styles.default_text}>Genre(s) : {this.state.film.production_companies.map(function(company){
                                                                     return company.name;
                                                                     }).join(" / ")} </Text>
+                       {this._displayButtonFilmVu()}
                   </ScrollView>
               
               )
@@ -149,6 +176,10 @@ class FilmDetail extends React.Component {
           const action = { type: "TOOGLE_FAVORITE",value: this.state.film}
           this.props.dispatch(action);
       }
+      _toogleVu(){
+        const action = { type: "TOOGLE_VUE",value: this.state.film}
+        this.props.dispatch(action);
+    }
   render() {
     //  console.log("component FilmDetail rendu")
     //  console.log(this.props)
@@ -230,7 +261,9 @@ favorite_image: {
 })
 
 const mapStateToProps = (state) => {
-  return {favoritesFilm : state.toggleFavorite.favoritesFilm } 
+  return {favoritesFilm : state.toggleFavorite.favoritesFilm,
+  FilmsVus : state.toogleVue.FilmsVus
+  } 
 }
 
 export default connect(mapStateToProps)(FilmDetail)
