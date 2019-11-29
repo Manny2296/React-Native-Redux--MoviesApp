@@ -5,6 +5,7 @@ import { StyleSheet, View, Text, Image } from 'react-native'
 import { getImageFromApi } from '../API/TMDBapi'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import  FadeIn  from "../animations/FadeIn";
+
 class FilmItem extends React.Component {
   _displayFavoriteImage(){
     if(this.props.isFavoriteFilm){
@@ -36,7 +37,7 @@ class FilmItem extends React.Component {
             {/* La propriété numberOfLines permet de couper un texte si celui-ci est trop long, il suffit de définir un nombre maximum de ligne */}
           </View>
           <View style={styles.date_container}>
-    <Text style={styles.date_text}>{film.relase_data}</Text>
+    <Text style={styles.date_text}>{film.release_date}</Text>
           </View>
        
         </View>

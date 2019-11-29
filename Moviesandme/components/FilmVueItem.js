@@ -1,6 +1,7 @@
 import React from "react";
 import { Text,View,StyleSheet,Image } from "react-native";
 import { getImageFromApi } from '../API/TMDBapi'
+import moment from 'moment'
 
 import { TouchableOpacity } from "react-native-gesture-handler";
 class FilmVueItem extends React.Component{
@@ -8,22 +9,43 @@ class FilmVueItem extends React.Component{
    constructor(props){ 
      
        super(props)
-       global.text_to_show = "";
+       this.state = {
+         text_to_show : this.props.film.title,
+         validator : false
+       }
+
+      
  }
  
  _onLongPressButton() {
-    alert('You long-pressed the button!')
+   //alert('Estoy edentro')
+   if(this.state.validator){
+    this.setState({
+      text_to_show : this.props.film.title,
+      validator : false
+    })
+   }
+   else{
+   this.setState({
+     text_to_show : 'Sorti le : ' +  moment(new Date(this.props.film.release_date)).format('DD/MM/YYYY'),
+     validator : true
+   })
   }
-
+  }
+  /*componentDidMount(){
+    this.setState({
+      text_to_show : this.props.film.relase_data
+    })
+  }*/
   render(){
     const { film, displayDetailForFilm } = this.props
 //{}
-global.text_to_show = film.title;
+
       return(
           
         <TouchableOpacity style={styles.content_container} onPress={() => displayDetailForFilm(film.id)} onLongPress={()=> this._onLongPressButton()}>
          <Image style={styles.avatar} source={{uri: getImageFromApi(film.poster_path)}}></Image>
-         <Text style={styles.title_text}>{global.text_to_show}</Text>
+         <Text style={styles.title_text}>{this.state.text_to_show}</Text>
        </TouchableOpacity>
       )
   }
