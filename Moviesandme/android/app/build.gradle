@@ -97,7 +97,7 @@ def enableProguardInReleaseBuilds = false
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
-
+     
     defaultConfig {
         applicationId "com.moviesandme"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -132,6 +132,7 @@ android {
             }
         }
     }
+ 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -139,6 +140,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-auth0')
     implementation project(':react-native-image-picker')
     implementation project(':react-native-screens')
     implementation project(':react-native-reanimated')

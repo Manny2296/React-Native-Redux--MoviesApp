@@ -11,8 +11,12 @@ import FilmDetail from '../components/FilmDetail'
 import Test from "../components/Test";
 import News from "../components/News";
 import FilmsVues from "../components/FilmsVues";
-
+import Login from "../components/Login/Login";
 const SearchStackNavigator = createStackNavigator({
+  Login:{
+    screen: Login,
+    
+  },
   Search: { // Ici j'ai appelé la vue "Search" mais on peut mettre ce que l'on veut. C'est le nom qu'on utilisera pour appeler cette vue
     screen: Search,
     navigationOptions: {

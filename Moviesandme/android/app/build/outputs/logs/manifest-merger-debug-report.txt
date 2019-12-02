@@ -1,17 +1,29 @@
 -- Merging decision tree log ---
+data
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:51:5-54:45
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:51:5-54:45
+	android:host
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:52:9-49
+	android:scheme
+		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:54:9-42
+	android:pathPrefix
+		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:53:9-64
 manifest
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
+MERGED from [:react-native-auth0] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-auth0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
 MERGED from [:react-native-screens] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\e9708c62afbc647e1c0ed6afda2e4139\AndroidManifest.xml:2:1-13:12
 MERGED from [:expo-permissions] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\d42a0ae263febe1e75b143dff4f27899\AndroidManifest.xml:17:1-22:12
-MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-app-loader-provider] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-constants] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-file-system] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
@@ -32,8 +44,8 @@ MERGED from [:unimodules-task-manager-interface] C:\Users\Riano\Repo\React-Nativ
 MERGED from [:unimodules-core] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-image-loader-interface] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-sensors-interface] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\e82f40c8e1cdbd88774057dcc03ca9c4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\91c211e5a7409382fea65955c0988d8f\AndroidManifest.xml:17:1-24:12
@@ -58,11 +70,11 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ri
 MERGED from [androidx.core:core:1.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\85df2fd4b75e89e499abdc2175c85137\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0e1aee0c4de125d3d42c471a4bf8dd24\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ab46f4749c4b8e43702ef083e228850c\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\f3cdb4a39a03c88c2e4e232470981abf\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6ddbd4083c399529855bb64e646f98b8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\da8657d696f243078be01145643e9cd1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8e5bb1067d578b91236c6728d1af1a86\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f8a7a770fca1093c93f73d5e8bfcb659\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\c607d6d589baf9b13b9a44afd4bd37ed\AndroidManifest.xml:17:1-22:12
@@ -76,20 +88,20 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Riano\.grad
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\4b255e8d60d8f18916d631b0f6ad3072\AndroidManifest.xml:2:1-13:12
 MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\f92af8e291aff21fb0ce67585d958d76\AndroidManifest.xml:2:1-30:12
 MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\dea7ac5270797eae8361529f0712a9b1\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
-INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
+INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
 	package
 		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:2:5-30
 		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
 		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:1-60:12
 		INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -180,7 +192,7 @@ ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android
 	android:name
 		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:26:22-70
 application
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:29:5-47:19
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:29:5-58:19
 MERGED from [:react-native-image-picker] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [:react-native-image-picker] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\e9708c62afbc647e1c0ed6afda2e4139\AndroidManifest.xml:11:5-20
@@ -226,33 +238,51 @@ MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Riano\.gradle\cach
 	android:name
 		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:30:7-38
 activity#com.moviesandme.MainActivity
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:36:7-45:18
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:36:7-56:18
 	android:label
 		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:38:9-41
+	android:launchMode
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:39:9-40
 	android:windowSoftInputMode
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:40:9-51
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:41:9-51
 	android:configChanges
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:39:9-79
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:40:9-79
 	android:name
 		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:37:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:41:9-44:25
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:42:9-46:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:42:13-65
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:43:13-65
 	android:name
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:42:21-62
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:43:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:43:13-73
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:44:13-73
 	android:name
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:43:23-70
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:44:23-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:dev-h-9z900l.eu.auth0.com+data:pathPrefix:/android/com.moviesandme/callback+data:scheme:com.moviesandme
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:47:9-55:17
+action#android.intent.action.VIEW
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:48:5-57
+	android:name
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:48:13-54
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:49:5-64
+	android:name
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:49:15-61
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:50:5-66
+	android:name
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:50:15-63
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:46:7-84
+ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:57:7-84
 	android:name
-		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:46:17-81
+		ADDED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml:57:17-81
 uses-sdk
 INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-auth0] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-auth0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-auth0] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-auth0\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-image-picker] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-picker] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -261,14 +291,14 @@ MERGED from [:react-native-reanimated] C:\Users\Riano\Repo\React-Native-Redux--M
 MERGED from [:react-native-reanimated] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\e9708c62afbc647e1c0ed6afda2e4139\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\e9708c62afbc647e1c0ed6afda2e4139\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-permissions] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-permissions] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\d42a0ae263febe1e75b143dff4f27899\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\d42a0ae263febe1e75b143dff4f27899\AndroidManifest.xml:20:5-44
-MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:unimodules-react-native-adapter] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-app-loader-provider] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-app-loader-provider] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-constants] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -309,10 +339,10 @@ MERGED from [:unimodules-image-loader-interface] C:\Users\Riano\Repo\React-Nativ
 MERGED from [:unimodules-image-loader-interface] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-sensors-interface] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-sensors-interface] C:\Users\Riano\Repo\React-Native-Redux--MoviesApp\Moviesandme\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\e82f40c8e1cdbd88774057dcc03ca9c4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\e82f40c8e1cdbd88774057dcc03ca9c4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\97ea630bf6601136e43281672266e661\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\bd0cb6fe763d22fa0b81c98ea1617fef\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\3a700daf412fac91f1d300fb177c72d4\AndroidManifest.xml:20:5-44
@@ -361,6 +391,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Ri
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\c3c2df81810c14a75fdfd01971758415\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0e1aee0c4de125d3d42c471a4bf8dd24\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\0e1aee0c4de125d3d42c471a4bf8dd24\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ab46f4749c4b8e43702ef083e228850c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ab46f4749c4b8e43702ef083e228850c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\f3cdb4a39a03c88c2e4e232470981abf\AndroidManifest.xml:20:5-44
@@ -369,8 +401,6 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Riano\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\6ddbd4083c399529855bb64e646f98b8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\da8657d696f243078be01145643e9cd1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\da8657d696f243078be01145643e9cd1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\50adecc67481edd20cd45316c83392fa\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8e5bb1067d578b91236c6728d1af1a86\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8e5bb1067d578b91236c6728d1af1a86\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Riano\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f8a7a770fca1093c93f73d5e8bfcb659\AndroidManifest.xml:20:5-44
