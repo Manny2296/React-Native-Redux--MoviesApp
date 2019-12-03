@@ -1,12 +1,19 @@
 import Auth0 from "react-native-auth0";
 import { Alert,Button, StyleSheet,Text,View } from "react-native";
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
+
 var credentials = { domain: 'dev-h-9z900l.eu.auth0.com', clientId: 'LHGlbuQbkcTHuNiCcAoJ9dqsKssPXDAj' }
 const auth0 = new Auth0(credentials);
 class Login extends Component {
     constructor(props){
         super(props)
         this.state = { accesToken:null}
+    }
+    _doLogin(){
+        let tmp = true
+        const action = { type:"LOGIN",value:tmp}
+        this.props.dispatch(action);
     }
     _onLogin = ()=>{
         auth0.webAuth
@@ -15,10 +22,16 @@ class Login extends Component {
         }).then(credentials => {
             Alert.alert('Acces tokemn' + credentials.accessToken)
             this.setState({accesToken : credentials.accessToken})
-            this.props.navigation.navigate("Search");
+            this._doLogin();
+            //console.log('valor' + this.props.isLogged)
+            //this.props.navigation.navigate("Search");
         })
         .catch(error => console.log(error))
     }
+    componentDidUpdate(){
+    console.log('update' +this.props.isLogged)
+    }
+   
     _onLogout = () =>{
         auth0.webAuth
         .clearSession({})
@@ -29,7 +42,26 @@ class Login extends Component {
         )
         .catch(error => {console.log("Log out cancelled")})
     } 
+    _onLogout = () =>{
+        auth0.webAuth
+        .clearSession({})
+        .then(success =>{
+             Alert.alert("Logged out !! ")
+             let tmp = false
+             const action = { type:"LOGIN",value:tmp}
+             this.props.dispatch(action);
+          //  this.setState({accesToken:null})
+        }
+        )
+        .catch(error => {console.log("Log out cancelled" + error)})
+      } 
   render() {
+      console.log('RENDER/LOGIN' )
+      if(this.isLogged == false){
+          this._onLogout;
+         
+      }
+      console.log(this.state.accesToken)
       let loggedIn = this.state.accesToken === null ? false : true;
     return (
        <View style={styles.container}>
@@ -43,6 +75,9 @@ class Login extends Component {
        </View>
     );
   }
+}
+export function OnLogout(){
+    this._onLogout;
 }
 const styles = StyleSheet.create(
     {
@@ -59,4 +94,11 @@ const styles = StyleSheet.create(
         }
     }
 )
-export default Login;
+
+const mapStatetoProps = state => {
+    return {
+      isLogged : state.doLogin.isLogged
+    }
+  }
+  
+export default connect(mapStatetoProps)(Login);

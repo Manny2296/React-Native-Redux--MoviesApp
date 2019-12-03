@@ -33,7 +33,7 @@ class FilmList extends React.Component {
             onEndReached={()=>{
               // On vérifie qu'on n'a pas atteint la fin de la pagination (totalPages) avant de charger plus d'éléments
             if(this.props.page < this.props.totalPages){
-              console.log("estoy aqui")
+             // console.log("estoy aqui")
               this.props.loadFilms();
             }
     

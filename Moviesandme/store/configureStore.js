@@ -2,8 +2,10 @@ import { createStore, combineReducers } from 'redux'
 import toggleFavorite from './reducers/favoriteReducer'
 import setAvatar from './reducers/avatarReducer'
 import toogleVue from './reducers/vueReducer'
+import doLogin from './reducers/loginReducer'
 import { persistCombineReducers, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
+
 
 import { persistStore } from "redux-persist";
 const rootPersistconf = {
@@ -12,7 +14,7 @@ const rootPersistconf = {
 }
 const persistedReducer = persistReducer(rootPersistconf, toggleFavorite)
 const persistReduceravatar = persistReducer(rootPersistconf,setAvatar)
-const persistFinalReducer = persistCombineReducers(rootPersistconf, {toggleFavorite,setAvatar,toogleVue})
+const persistFinalReducer = persistCombineReducers(rootPersistconf, {doLogin,toggleFavorite,setAvatar,toogleVue})
 export default createStore(persistFinalReducer)
 // export default () => {
 //     let store = createStore(persistFinalReducer)

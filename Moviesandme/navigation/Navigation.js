@@ -3,7 +3,7 @@
 import React from 'react' 
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from "react-navigation-tabs";
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image, Button,Alert } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
 import Search from '../components/Search'
 import  Favorites  from "../components/Favorites";
@@ -11,16 +11,14 @@ import FilmDetail from '../components/FilmDetail'
 import Test from "../components/Test";
 import News from "../components/News";
 import FilmsVues from "../components/FilmsVues";
-import Login from "../components/Login/Login";
+
+
 const SearchStackNavigator = createStackNavigator({
-  Login:{
-    screen: Login,
-    
-  },
   Search: { // Ici j'ai appelé la vue "Search" mais on peut mettre ce que l'on veut. C'est le nom qu'on utilisera pour appeler cette vue
     screen: Search,
     navigationOptions: {
-      title: 'Moteur de recherche des Films'
+      title: 'Moteur de recherche des Films',
+  
     }
   },
   FilmDetail: { // Encore une fois j'ai mis le même nom que celui du component mais libre à vous de choisir un nom différent

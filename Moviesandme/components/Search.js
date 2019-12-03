@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { getFilmsFromApiWithSearchedText } from '../API/TMDBapi' // import { } from ... car c'est un export nommé dans 
 //import films from '../helpers/filmsData'
+import Login from "../components/Login/Login"
 
-import {View,TextInput,Button,Text,StyleSheet, FlatList,ActivityIndicator } from 'react-native'
+import {View,TextInput,Button,Text,StyleSheet, FlatList,ActivityIndicator,Alert } from 'react-native'
 import FilmItem from './FilmItem';
 import FilmList from './FilmList' 
 import { connect } from 'react-redux'
 class Search extends React.Component {
+
+ 
   // Components/Search.js
   constructor(props) {
     super(props)
@@ -18,6 +21,32 @@ class Search extends React.Component {
         isLoading: false // Par défaut à false car il n'y a pas de chargement tant qu'on ne lance pas de recherche        
        }
    this._loadFilms = this._loadFilms.bind(this)
+  // this._doLogin = this._doLogin.bind(this)
+}
+componentDidMount() {
+  this.props.navigation.setParams({
+      dispatch: this.dispatch.bind(this)
+  });
+}
+dispatch(){
+  let tmp = false
+  const action = { type:"LOGIN",value:tmp}
+  this.props.dispatch(action);
+  
+}
+
+static navigationOptions = ({ navigation }) => {
+
+  return { 
+    headerRight: () => (
+      
+      <Button
+        onPress={() => navigation.state.params.dispatch()}
+        title="Logout"
+        color="red"
+      />
+    ),
+  }
 }
 _displayDetailForFilm = (idFilm) => {
   console.log("Display film with id " + idFilm)
@@ -67,19 +96,11 @@ _searchTextInputChanged(text) {
   // console.log('Recherche :' + this.searchedText);
  
 }
-    render(){
-      console.log("RENDER") 
-     // console.log(this.state.isLoading)
-     //console.log(this.props)
-      /* Nous avons modifié les données de notre component Search, le state,
-       en passant par la fonction  setState .
-       React a identifié que le state de votre component Search a changé.
-       Il va alors demander à votre component Search de se re-rendre avec
-       le nouveau state.*/ 
-        // Ici on rend à l'ecran les elements graphiques de notre component custom Search
-     return(
-        <View style={styles.main_container}>
-        <TextInput style={styles.textinput} placeholder='Titre du film'
+renderbassedonLoginState(){
+  if(this.props.isLogged){
+    return(
+      <View style={styles.main_container}>
+    <TextInput style={styles.textinput} placeholder='Titre du film'
          onChangeText={(text) => {this._searchTextInputChanged(text) 
          } } 
          onSubmitEditing={() => this._loadFilms()}
@@ -94,8 +115,28 @@ _searchTextInputChanged(text) {
           totalPages={this.totalPages} // les infos page et totalPages vont être utile, côté component FilmList, pour ne pas déclencher l'évènement pour charger plus de film si on a atteint la dernière page
           favoriteList={false} // Ici j'ai simplement ajouté un booléen à false pour indiquer qu'on n'est pas dans le cas de l'affichage de la liste des films favoris. Et ainsi pouvoir déclencher le chargement de plus de films lorsque l'utilisateur scrolle.        
         />
-      
-         
+        </View>
+        )
+  }else{
+    return(
+      <Login/>
+    )
+
+  }
+}
+    render(){
+      console.log("RENDER/SEARCH -- islogged : " + this.props.isLogged) 
+     // console.log(this.state.isLoading)
+     //console.log(this.props)
+      /* Nous avons modifié les données de notre component Search, le state,
+       en passant par la fonction  setState .
+       React a identifié que le state de votre component Search a changé.
+       Il va alors demander à votre component Search de se re-rendre avec
+       le nouveau state.*/ 
+        // Ici on rend à l'ecran les elements graphiques de notre component custom Search
+     return(
+        <View style={styles.main_container}>    
+         {this.renderbassedonLoginState()}
       </View>
       )
     }
@@ -125,8 +166,8 @@ const styles = StyleSheet.create({
   })
   const mapStatetoProps = state => {
     return {
-      favoritesFilm : state.favoritesFilm
+      isLogged : state.doLogin.isLogged
     }
   }
   
-export default Search
+export default connect(mapStatetoProps)(Search)
