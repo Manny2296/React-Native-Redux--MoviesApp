@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import { getFilmsFromApiWithSearchedText } from '../API/TMDBapi' // import { } from ... car c'est un export nommé dans 
 //import films from '../helpers/filmsData'
 import Login from "../components/Login/Login"
+import Auth0 from "react-native-auth0";
 
 import {View,TextInput,Button,Text,StyleSheet, FlatList,ActivityIndicator,Alert } from 'react-native'
 import FilmItem from './FilmItem';
 import FilmList from './FilmList' 
 import { connect } from 'react-redux'
+var credentials = { domain: 'dev-h-9z900l.eu.auth0.com', clientId: 'LHGlbuQbkcTHuNiCcAoJ9dqsKssPXDAj' }
+const auth0 = new Auth0(credentials);
 class Search extends React.Component {
 
  
@@ -29,10 +32,19 @@ componentDidMount() {
   });
 }
 dispatch(){
-  let tmp = false
-  const action = { type:"LOGIN",value:tmp}
-  this.props.dispatch(action);
-  
+  auth0.webAuth
+  .clearSession({})
+  .then(success =>{
+     //  Alert.alert("Logged out !! ")
+       let tmp = false
+       const action = { type:"LOGIN",value:tmp}
+       this.props.dispatch(action);
+    //  this.setState({accesToken:null})
+    console.log("Sesion cerrada ok")
+  }
+  )
+  .catch(error => {console.log("Log out cancelled" + error)})
+
 }
 
 static navigationOptions = ({ navigation }) => {
