@@ -27,7 +27,7 @@ And so now we have all of our environment correctly setup :).
 
 ## Running our Application :
 
-Run into your root project directory
+Run this command into your root project directory : 
 ### Android Run :
 ```bash
 react-native run-android     
