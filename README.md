@@ -1,4 +1,4 @@
-# React-Native-MoviesAPP                                   <img align="right" width="100" height="100" src="https://eco2.com.co/wp-content/uploads/2019/09/flower-2.png">
+# React-Native-MoviesAPP                                   <img align="right"  href="www.eco2.com.co" width="100" height="100" src="https://eco2.com.co/wp-content/uploads/2019/09/flower-2.png">
 This is a project developed in React Native using Redux as a container of the application states. This application allows you to understand the flow of a React application in addition to providing an overview of the components and development in React Native (Recover data from an external API, Navigation between views, Native Components ...)
 
 
