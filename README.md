@@ -41,3 +41,5 @@ react-native run-ios
 ## Screenshots
 
 ![alt text](https://eco2.com.co/wp-content/uploads/2019/12/screen1.jpg)
+![alt text](https://eco2.com.co/wp-content/uploads/2019/12/screen2.jpg)
+
