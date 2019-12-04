@@ -40,4 +40,4 @@ react-native run-ios
 ```
 ## Screenshots
 
-![alt text](https://drive.google.com/open?id=1CmH9GH_qQj35Df4iK9vamW4VjkhjZvoS)
+![alt text](https://eco2.com.co/wp-content/uploads/2019/12/screen1.jpg)
