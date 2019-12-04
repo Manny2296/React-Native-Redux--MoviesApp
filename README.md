@@ -1,6 +1,8 @@
 # React-Native-MoviesAPP
 This is a project developed in React Native using Redux as a container of the application states. This application allows you to understand the flow of a React application in addition to providing an overview of the components and development in React Native (Recover data from an external API, Navigation between views, Native Components ...)
 
+
+
 ## Setup
 To run the application correctly it is necessary to have an API_TOKEN from APIDATABASE (https://www.themoviedb.org/documentation/api) which will allow the communication of the application with the API.
 Update you API_TOKEN in the file : **API/TMDBapi.js**
@@ -36,4 +38,6 @@ react-native run-android
 ```bash
 react-native run-ios     
 ```
+## Screenshots
 
+![alt text](https://drive.google.com/open?id=1CmH9GH_qQj35Df4iK9vamW4VjkhjZvoS)
